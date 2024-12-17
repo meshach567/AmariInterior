@@ -1,27 +1,27 @@
 /* Carousel.css */
 
 .carousel-container {
-    display: flex;
-    flex-direction: column  ;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .carousel {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .carousel-slide {
-    display: none;
-    transition: opacity 0.5s ease;
+  display: none;
+  transition: opacity 0.5s ease;
 }
 
 .carousel-slide.active-slide {
-    display: block;
-    opacity: 1;
-    width: 100%;
+  display: block;
+  opacity: 1;
+  width: 100%;
 }
 
 /* .carousel img {
@@ -31,24 +31,22 @@
 } */
 
 .carousel-button {
-    
-    background: 0;
-    color: rgb(255, 220, 24);
-    border: none;   
-    cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
-    z-index: 1;
+  background: 0;
+  color: rgb(255, 220, 24);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  z-index: 1;
 }
 
 .carousel-button.prev {
-    left: 10px;
+  left: 10px;
 }
 
 .carousel-button.next {
-    right: 10px;
+  right: 10px;
 }
-
 
 /* .app-heading {
     margin-bottom: 20px;
