@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import './Carousel.css';
-import { ArrowLeft, ChevronRight } from '../icons';
+import { ArrowLeft, ChevronRight } from '../../icons';
 
 interface CarouselProps {
   images: string[];

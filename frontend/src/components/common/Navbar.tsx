@@ -2,7 +2,7 @@ import React from 'react';
 import { ShoppingCart, UserRound } from 'lucide-react';
 
 import Link from 'next/link';
-import { navMenus } from '@/constants/menus';
+import { navMenus } from '@/data/menus.data';
 
 const Navbar = () => {
   return (

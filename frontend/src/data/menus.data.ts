@@ -29,7 +29,6 @@ export const navMenus: NavProps = [
 ];
 
 export const heroCarouselImage: string[] = [
-  '/assets/onebigchair.png',
   '/assets/onegoldchair.png',
   '/assets/oneroundbottomchair.png',
   '/assets/onesinglechair.png',

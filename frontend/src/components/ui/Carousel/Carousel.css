@@ -1,5 +1,3 @@
-/* Carousel.css */
-
 .carousel-container {
   display: flex;
   flex-direction: column;
@@ -24,12 +22,6 @@
   width: 100%;
 }
 
-/* .carousel img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-} */
-
 .carousel-button {
   background: 0;
   color: rgb(255, 220, 24);
@@ -47,15 +39,3 @@
 .carousel-button.next {
   right: 10px;
 }
-
-/* .app-heading {
-    margin-bottom: 20px;
-    font-size: 32px;
-    color: #333;
-} */
-
-/* .carousel-wrapper {
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-} */
