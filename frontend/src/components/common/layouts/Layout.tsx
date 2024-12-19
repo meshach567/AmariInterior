@@ -1,14 +1,14 @@
 import React, { JSX, ReactNode } from 'react';
 import cx from 'clsx';
-const Navbar = dynamic(() => import('../common/Navbar'), {
+const Navbar = dynamic(() => import('../Navbar/Navbar'), {
   ssr: false,
 });
-const Footer = dynamic(() => import('../common/Footer'), {
+const Footer = dynamic(() => import('../Footer/Footer'), {
   ssr: false,
 });
-import LoadingDots from '../ui/LoadingDots';
+import LoadingDots from '../../ui/LoadingDots';
 import dynamic from 'next/dynamic';
-import { HeroType } from '../common/Hero';
+import { HeroType } from '../Hero/Hero';
 
 const Loading = () => (
     <div className="w-80 h-80 flex items-center text-center justify-center p-3">
@@ -22,7 +22,7 @@ const dynamicProps = {
 };
 
 
-const Hero = dynamic(() => import('../common/Hero'), {
+const Hero = dynamic(() => import('../Hero/Hero'), {
     ssr: false,
     ...dynamicProps,
 });

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { JSX, ReactNode } from 'react';
 import cx from 'clsx';
-import Carousel from '../ui/Carousel/Carousel';
+import Carousel from '../../ui/Carousel/Carousel';
 import { heroCarouselImage } from '@/data/menus.data';
 
 
