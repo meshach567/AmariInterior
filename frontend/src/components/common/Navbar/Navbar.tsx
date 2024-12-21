@@ -23,6 +23,8 @@ const Navbar = () => {
                   <Link
                     className="text-amber-400 transition-all hover:text-amber-500 focus:text-amber-500"
                     href={item.href}
+                    title="Go to different page"
+                    target="_blank"
                   >
                     {item.title}
                   </Link>

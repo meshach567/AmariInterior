@@ -1,7 +1,9 @@
 export type NavProps = {
   id: string;
   href: string;
-  title: string;
+  title?: string;
+  target?: string;
+  sub_title: string
 }[];
 
 export type NavIcons = {

@@ -29,6 +29,10 @@ export default function RootLayout({
         name="format-detection"
         content="telephone=no, date=no, email=no, address=no"
       />
+      <meta charSet='UTF-8' />
+      <meta httpEquiv='refresh' content='30' />
+      <meta name='viewport' content="width=device-width, initial-scale=1.0"/>
+      <meta name="author" content="Meshach Arinze " />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
